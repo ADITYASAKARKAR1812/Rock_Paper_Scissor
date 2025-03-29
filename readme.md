@@ -2,7 +2,6 @@
 
 A simple yet addictive browser-based Rock Paper Scissors game with clean visuals and smooth gameplay.
 
-
 ## How It Works
 
 - Choose your weapon: rock, paper, or scissors
@@ -29,24 +28,7 @@ A simple yet addictive browser-based Rock Paper Scissors game with clean visuals
 
 ## Try It Out
 
-run locally:
-1. Clone this repo
-2. Open `index.html` in your browser
-3. Start playing!
-
-## Customization
-
-Want to tweak it? Here are easy changes:
-- **Colors**: Modify the gradient in `style.css`
-- **Icons**: Change Font Awesome classes in HTML
-- **Rules**: Adjust the game logic in `App.js`
-
-## Known Quirks
-
-- The computer's choices are completely random (no AI)
-- Mobile users might need to tap carefully on small screens
-
----
-
-Made with ♥ by Aditya sakarkar  
-Inspired by childhood playground games
+```bash
+git clone https://github.com/ADITYASAKARKAR1812/Rock_Paper_Scissor.git
+cd rock-paper-scissors
+open index.html
