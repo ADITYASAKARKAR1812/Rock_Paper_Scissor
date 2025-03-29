@@ -1,0 +1,109 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #6e45e2,
+        #88d3ce
+    );
+}
+
+.container {
+    width: 45%;
+    min-width: 500px;
+    background-color: #ffffff;
+    padding: 40px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.scores {
+    margin-bottom: 50px;
+    text-align: right;
+    color: #4a4a4a;
+}
+
+.weapons {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.weapons button {
+    background-color: #7c4dff;
+    color: #ffffff;
+    border: none;
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(124, 77, 255, 0.4);
+}
+
+.weapons button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 25px rgba(124, 77, 255, 0.6);
+}
+
+.details {
+    margin-top: 30px;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.scores, .details {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#result {
+    width: 180px;
+    padding: 10px 0;
+    margin: 30px auto;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+}
+
+#user_choice,
+#comp_choice {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: 600;
+    color: #7c4dff;
+}
+
+/* Win/Lose/Draw colors */
+#result[style*="background-color: #cefdce"] { 
+    background-color: #c8e6c9 !important;
+    color: #2e7d32 !important;
+}
+
+#result[style*="background-color: #ffdde0"] { 
+    background-color: #ffcdd2 !important;
+    color: #c62828 !important;
+}
+
+#result[style*="background-color: #e5e5e5"] { 
+    background-color: #e0e0e0 !important;
+    color: #616161 !important;
+}
